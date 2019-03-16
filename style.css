@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+*{
+    box-sizing: border-box;
+}
+header {
+    width: 960px;
+    margin: 30px auto 50px auto;
+    height: 90px;
+}
+header>*:not(hr) {
+    display: inline-block;
+}
+header>img {
+    float: left;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+header>div {
+    height: 70px;
+    width: 300px;
+}
+header h1 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+header h3 {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: .7em;
+}
+header>ul {
+    float: right;
+    margin-top: 15px;
+}
+header>ul>img:nth-child(6) {
+    margin-right: 8px;
+}
+article {
+    width: 960px;
+    margin: auto;
+}
+article>div {
+    width: 300px;
+    height: 70px;
+    display: inline-block;
+}
+article h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    width: 300px;
+    float: left;
+}
+article>div>h3 {
+    width: 300px;
+    float: left;
+    font-family: 'Ropa Sans', sans-serif;
+}
+article>ul {
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-top: 33px;
+}
+article>ul>* {
+    display: inline-block;
+}
+article>ul>h3 {
+    display: inline-block;
+    width: 80px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+article>img {
+    width: 960px;
+    margin: 0 auto 20px auto;
+}
+article>p {
+    margin-bottom: 20px;
+}
+form{
+    background-image: url(img/list-bg.png);
+    height: 305px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 65px;
+    margin-bottom: 30px;
+}
+form>ul {
+    width: 410px;
+    height: 200px;
+    display: inline-block;
+}
+form>ul>label {
+    display: block;
+    margin-bottom: 12.5px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3em;
+}
+article>hr {
+    margin-bottom: 20px;
+}
+#author {
+    width: 960px;
+    height: 110px;
+}
+#author h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+#author>img {
+    float: left;
+    width: 70px;
+    margin-bottom: 7px;
+    margin-right: 20px;
+}
+article:last-child>div>div {
+    width: 680px;
+    display: inline-block;
+}
+article button {
+    height: 40px;
+    width: 160px;
+    float: right;
+    margin-top: 7px;
+}
+footer>div {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer>div>hr, footer>div>img {
+    display: inline-block;
+}
+footer>div>hr {
+    margin-bottom: 14px;
+}
+footer>div>img {
+    margin: 0 5px;
+}
+footer>h6 {
+    text-align: center;
+    font-size: .7em;
+    margin-bottom: 5px;
+}
